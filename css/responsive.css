@@ -1,0 +1,254 @@
+/* タブレット向け */
+@media all and (max-width: 1030px) {
+    .container {
+        width: 100%;
+    }
+    .top-wrapper {
+      margin: 140px 40px 40px 40px;
+      padding: 40px 0 40px 0;
+      background-color: #fff;
+      border-radius: 3px;
+      box-shadow: 0 7px 15px rgba(0,0,0,0.8);
+    }
+    
+    .top-wrapper .container {
+      flex-direction: column;
+    }
+  
+    .news-wrapper {
+      padding: 50px 0;
+      background-color: #fff;
+      margin: 30px 40px;
+      border-radius: 3px;
+      box-shadow: 0 7px 15px rgba(0,0,0,0.8);
+    }
+    
+    .news-wrapper .container {
+      flex-direction: column;
+    }
+        
+    .section-title {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 30px;
+    }
+        
+    .news-container {
+      max-width: 99%;
+      max-height: 300px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+        
+    .news-list {
+      margin: 0;
+      padding: 0;
+    }
+        
+    .news-item {
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+      }
+        
+    .news-item:last-child {
+      border-bottom: none;
+    }
+        
+    .news-date {
+      font-weight: bold;
+      color: #666;
+      margin-right: 10px;
+    }
+  
+    .jump-contents {
+      margin: 30px 40px;
+    }
+  
+    /*目次ページ*/
+    .contents-box{
+      margin: 130px 40px;
+    }
+  
+    /*お話ページ*/
+    .story-box {
+      padding: 70px 10px;
+      margin: 140px 40px;
+    }
+  
+    .story-box .container {
+      flex-direction: column;
+      align-items: normal;
+    }
+  
+    /*登場人物紹介ページ*/
+    .characters-wrapper {
+      margin: 140px 40px;
+    }
+  
+    .characters-wrapper .container{
+      padding: 0 10px 0;
+    }
+  
+    .character-box {
+      padding: 0 25px 20px 25px;
+    }
+  
+    /*ご注意*/
+    .about-wrapper {
+      margin: 140px 60px;
+    }
+  
+  
+  }
+  
+  /* スマートフォン向け */
+  @media all and (max-width: 670px) {
+      .container {
+          width: 100%;
+      }
+  
+      /*ヘッダー*/
+      .menu-icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        z-index: 1001;
+        color: #fff;
+      }
+    
+      .header-right {
+        display: none;
+        flex-direction: column;
+        background-color: #222;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 1em;
+        z-index: 1000;
+      }
+    
+      .header-right a {
+        color: white;
+        padding: 1em;
+        border-top: 1px solid #444;
+        text-align: center;
+      }
+  
+      
+    
+      /* チェックされたら表示 */
+      .menu-toggle:checked + .menu-icon + .header-right {
+        display: flex;
+      }
+  
+      /*トップページ*/
+      .top-wrapper {
+          margin: 140px 10px 40px 10px;
+          padding: 40px 0 40px 0;
+          background-color: #fff;
+          border-radius: 3px;
+          box-shadow: 0 7px 15px rgba(0,0,0,0.8);
+        }
+        
+        .top-wrapper .container {
+          flex-direction: column;
+        }
+      
+        .news-wrapper {
+          padding: 50px 0;
+          background-color: #fff;
+          margin: 30px 10px;
+          border-radius: 3px;
+          box-shadow: 0 7px 15px rgba(0,0,0,0.8);
+        }
+        
+        .news-wrapper .container {
+          flex-direction: column;
+        }
+            
+        .section-title {
+          text-align: center;
+          font-size: 2em;
+          margin-bottom: 30px;
+        }
+            
+        .news-container {
+          width: 330px;
+          max-height: 300px;
+          overflow-y: auto;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding: 10px;
+          background-color: #fff;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+            
+        .news-list {
+          margin: 0;
+          padding: 0;
+        }
+            
+        .news-item {
+          padding: 10px 0;
+          border-bottom: 1px solid #eee;
+          }
+            
+        .news-item:last-child {
+          border-bottom: none;
+        }
+            
+        .news-date {
+          font-weight: bold;
+          color: #666;
+          margin-right: 10px;
+        }
+  
+        .jump-contents {
+          margin: 30px 10px;
+        }
+  
+        /*目次ページ*/
+        .contents-box{
+          margin: 140px 10px;
+        }
+  
+        /*お話ページ*/
+        .story-box {
+          padding: 70px 10px;
+          margin: 140px 10px;
+        }
+  
+        .story-box .container {
+          flex-direction: column;
+          align-items: normal;
+        }
+  
+        .chanting {
+          margin: 70px 15px;
+        }
+  
+        /*登場人物紹介ページ*/
+        .characters-wrapper {
+          margin: 190px 10px;
+        }
+  
+        .characters-wrapper .container{
+          padding: 0 10px 0;
+        }
+  
+        .character-box {
+          padding: 0 25px 20px 25px;
+        }
+  
+        /*ご注意*/
+        .about-wrapper {
+          margin: 140px 10px;
+        }
+  
+  }
+  
