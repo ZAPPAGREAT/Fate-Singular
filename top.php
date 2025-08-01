@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>【非公式二次創作】Fate/Singular - TOP</title>
-    <meta name="description" content="<p>本作品は「Fateシリーズ」の非公式の二次創作です。公式の内容や世界観とは異なる独自の解釈が含まれております。当サイトの管理人は、公式ガイドラインは確認済みです。ご了承の上、お楽しみください。">
+    <meta name="description" content="本作品は「Fateシリーズ」の非公式の二次創作です。公式の内容や世界観とは異なる独自の解釈が含まれております。当サイトの管理人は、公式ガイドラインは確認済みです。ご了承の上、お楽しみください。">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">    <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/styleheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script>
       window.addEventListener('load', function() {
@@ -19,33 +19,25 @@
     </script>
   </head>
   <body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img src="/images/ZAPPA-Worldillia-logo.png" alt="ロゴ">
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img src="images/Fate-Singular-logo-white.png">
+        </div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon"><span class="fa fa-bars"></span></label>
+        <nav class="header-right">
+          <a href=>トップ</a>
+          <a href=contents.php>目次</a>
+          <a href=characters.php>登場人物</a>
+          <a href=about.php>この作品についてご注意</a>
+        </nav>
       </div>
-
-      <!-- ハンバーガーアイコン -->
-      <div class="hamburger" id="hamburger">
-        <i class="fas fa-bars"></i>
-      </div>
-
-      <!-- メニュー本体 -->
-      <nav class="header-right" id="nav-menu">
-        <a href="top.php">Home</a>
-        <a href="profile.php">Profile</a>
-        <a href="works.php">Works</a>
-        <a href="free-BGM-DL.php">Free BGM DL</a>
-        <a href="commission.php">Commission & Contact</a>
-        <a href="links.php">Links</a>
-      </nav>
-    </div>
-  </header>
-
+    </header>
     <div class="top-wrapper">
       <div class="container">
         <p class="informal">【非公式二次創作】</p>
-        <img class="top-title" src="images/Fate-Singular-logo.png">
+        <img class="top-title" src="/images/Fate-Singular-logo.png">
         <p><strong>ご注意</strong></p>
         <p>本作品は「Fateシリーズ」の非公式の二次創作です。</p>
         <p>公式の内容や世界観とは異なる独自の解釈が含まれております。</p>
@@ -59,155 +51,103 @@
         <div class="news-container">
           <div class="news-list">
             <div class="news-item">
-              <div class="news-item">
-                <span class="news-date">2025年06/27日(fri)</span>
-                <p>【お話】Act1 2-7を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/25日(wed)</span>
-                <p>【お話】Act1 2-6を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/24日(tue)</span>
-                <p>【お話】Act1 2-5を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/23日(mon)</span>
-                <p>【お話】Act1 2-4を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/20日(fri)</span>
-                <p>【お話】Act1 2-3を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/18日(wed)</span>
-                <p>【お話】Act1 2-2を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/17日(tue)</span>
-                <p>【お話】Act1 2-1を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/17日(tue)</span>
-                <p>【お話】Act1 1-20を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/16日(mon)</span>
-                <p>【お話】Act1 1-19を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/13日(fri)</span>
-                <p>【お話】Act1 1-18を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/11日(wed)</span>
-                <p>【お話】Act1 1-17を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/10日(tue)</span>
-                <p>【お話】Act1 1-16を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/09日(mon)</span>
-                <p>【お話】Act1 1-15を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/06日(fri)</span>
-                <p>【お話】Act1 1-14を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/05日(thu)</span>
-                <p>【お話】Act1 1-13を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/03日(tue)</span>
-                <p>【お話】Act1 1-12を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年06/02日(mon)</span>
-                <p>【お話】Act1 1-11を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年05/29日(thr)</span>
-                <p>【お話】Act1 1-10を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年05/28日(wed)</span>
-                <p>【お話】Act1 1-9を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年05/27日(tue)</span>
-                <p>【お話】Act1 1-8を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年05/26日(mon)</span>
-                <p>【お話】Act1 1-7を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年05/26日(mon)</span>
-                <p>【お話】Act1 1-6を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年05/26日(mon)</span>
-                <p>【お話】Act1 1-5を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年05/23日(fri)</span>
-                <p>【お話】Act1 1-4を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年05/20日(tue)</span>
-                <p>【お話】Act1 1-3を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年05/20日(tue)</span>
-                <p>【お話】Act1 1-2を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年05/19日(mon)</span>
-                <p>【お話】Act1 1-1を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年05/19日(mon)</span>
-                <p>【お話】プロローグ p-10を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年05/16日(fri)</span>
-                <p>【お話】プロローグ p-9を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年05/16日(fri)</span>
-                <p>【お話】プロローグ p-8を公開しました</p>
-              </div>
-              <div class="news-item">
-                <span class="news-date">2025年05/15日(thr)</span>
-                <p>【お話】プロローグ p-7を公開しました</p>
-              </div>
-              <span class="news-date">2025年05/14日(wed)</span>
-              <p>【お話】プロローグ p-6を公開しました</p>
+              <span class="news-date">2025年08/01(fri)</span>
+              <p>【目次】ACT1 1-13を公開しました</p>
             </div>
             <div class="news-item">
-              <span class="news-date">2025年05/12日(mon)</span>
-              <p>【お話】プロローグ p-5を公開しました</p>
+              <span class="news-date">2025年07/30(wed)</span>
+              <p>【目次】ACT1 1-12を公開しました</p>
             </div>
             <div class="news-item">
-              <span class="news-date">2025年05/09日(fri)</span>
-              <p>【お話】プロローグ p-4を公開しました</p>
+              <span class="news-date">2025年07/28(mon)</span>
+              <p>【目次】ACT1 1-11を公開しました</p>
             </div>
             <div class="news-item">
-              <span class="news-date">2025年05/08日(Thr)</span>
-              <p>【お話】プロローグ p-3を公開しました</p>
+              <span class="news-date">2025年07/23(wed)</span>
+              <p>【目次】ACT1 1-10を公開しました</p>
             </div>
             <div class="news-item">
-              <span class="news-date">2025年05/08日(Thr)</span>
-              <p>【お話】プロローグ p-2を公開しました</p>
+              <span class="news-date">2025年07/23(wed)</span>
+              <p>【目次】ACT1 1-9を公開しました</p>
             </div>
             <div class="news-item">
-              <span class="news-date">2025年04/18日(fri)</span>
-              <p>【お話】プロローグ p-1を公開しました</p>
+              <span class="news-date">2025年07/16(wed)</span>
+              <p>【目次】ACT1 1-8を公開しました</p>
             </div>
             <div class="news-item">
-              <span class="news-date">2025年04/14(mon)</span>
+              <span class="news-date">2025年07/14(mon)</span>
+              <p>【目次】 ACT1 1-7を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年07/11(fri)</span>
+              <p>【目次】ACT1 1-6を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年07/11(fri)</span>
+              <p>【目次】ACT1 1-5を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年07/09(wed)</span>
+              <p>【目次】ACT1 1-4を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年07/09(wed)</span>
+              <p>【目次】ACT1 1-3を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年07/07(mon)</span>
+              <p>【目次】ACT1 1-2を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年07/07(mon)</span>
+              <p>【目次】ACT1 1-1を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年07/04(fri)</span>
+              <p>【目次】プロローグ p-10を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年07/04(fri)</span>
+              <p>【目次】プロローグ p-9を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年07/04(fri)</span>
+              <p>【目次】プロローグ p-8を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年07/04(fri)</span>
+              <p>【目次】プロローグ p-7を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年07/04(fri)</span>
+              <p>【目次】プロローグ p-6を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年07/02(wed)</span>
+              <p>【目次】プロローグ p-5を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年07/02(wed)</span>
+              <p>【トップ】シェアボタンを配置しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年07/02(wed)</span>
+              <p>【目次】プロローグ p-4を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年07/01(tue)</span>
+              <p>【目次】プロローグ p-3を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年06/30(mon)</span>
+              <p>【目次】プロローグ p-2を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年06/30(mon)</span>
+              <p>【目次】プロローグ p-1を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年06/30(mon)</span>
               <p>当サイトを開設しました</p>
             </div>
           </div>
@@ -218,7 +158,8 @@
       <div class="container">
         <h2>お話はこちらから！</h2>
         <a href=contents.php>目次へ飛ぶ</a>
-        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a class="top-share" href="https://twitter.com/intent/tweet?text=【非公式二次創作】Fate/Singular&url=https://fate-singular-inf.online" target="_blank" class="custom-X-button"><img class="share-X"  src="/images/X-share150-520.png"></a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
     <footer>
