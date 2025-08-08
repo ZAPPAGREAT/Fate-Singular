@@ -19,7 +19,7 @@
     <meta name="twitter:title" content="【非公式二次創作】Fate/Singular｜TOP">
     <meta name="twitter:description" content="本作品は「Fateシリーズ」の非公式の二次創作です。">
     <meta name="twitter:image" content="https://fate-singular-inf.online/images/Fate-singular-OGP.jpg">
-    
+
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">    <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/stylesheet.css">
@@ -65,6 +65,10 @@
         <h2 class="section-title">更新情報</h2>
         <div class="news-container">
           <div class="news-list">
+            <div class="news-item">
+              <span class="news-date">2025年08/08(fri)</span>
+              <p>【目次】ACT1 1-15を公開しました</p>
+            </div>
             <div class="news-item">
               <span class="news-date">2025年08/04(mon)</span>
               <p>【目次】ACT1 1-14を公開しました</p>
