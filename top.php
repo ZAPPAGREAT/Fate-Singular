@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>【非公式二次創作】Fate/Singular - TOP</title>
-    <meta name="description" content="本作品は「Fateシリーズ」の非公式の二次創作です。公式の内容や世界観とは異なる独自の解釈が含まれております。当サイトの管理人は、公式ガイドラインは確認済みです。ご了承の上、お楽しみください。">
+    <meta name="description" content="本作品は「Fateシリーズ」の非公式の二次創作小説です。公式の内容や世界観とは異なる独自の解釈が含まれております。当サイトの管理人は、公式ガイドラインは確認済みです。ご了承の上、お楽しみください。">
     <!-- ▼ OGP ▼ -->
     <meta property="og:title" content="【非公式二次創作】Fate/Singular｜TOP">
-    <meta property="og:description" content="本作品は「Fateシリーズ」の非公式の二次創作です。公式の内容や世界観とは異なる独自の解釈が含まれております。当サイトの管理人は、公式ガイドラインは確認済みです。ご了承の上、お楽しみください。">
+    <meta property="og:description" content="本作品は「Fateシリーズ」の非公式の二次創作小説です。公式の内容や世界観とは異なる独自の解釈が含まれております。当サイトの管理人は、公式ガイドラインは確認済みです。ご了承の上、お楽しみください。">
     <meta property="og:url" content="https://fate-singular-inf.online/">
     <meta property="og:image" content="https://fate-singular-inf.online/images/Fate-singular-OGP.jpg">
     <meta property="og:site_name" content="Fate/Singular">
@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@zappa_great">
     <meta name="twitter:title" content="【非公式二次創作】Fate/Singular｜TOP">
-    <meta name="twitter:description" content="本作品は「Fateシリーズ」の非公式の二次創作です。">
+    <meta name="twitter:description" content="本作品は「Fateシリーズ」の非公式の二次創作小説です。">
     <meta name="twitter:image" content="https://fate-singular-inf.online/images/Fate-singular-OGP.jpg">
 
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">    <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
@@ -65,6 +65,10 @@
         <h2 class="section-title">更新情報</h2>
         <div class="news-container">
           <div class="news-list">
+            <div class="news-item">
+              <span class="news-date">2025年08/18(mon)</span>
+              <p>【目次】ACT1 1-19を公開しました</p>
+            </div>
             <div class="news-item">
               <span class="news-date">2025年08/15(fri)</span>
               <p>【目次】ACT1 1-18を公開しました</p>
