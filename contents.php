@@ -72,6 +72,7 @@
           <a href="stories.php?id=27" >1-17</a>
           <a href="stories.php?id=28" >1-18</a>
           <a href="stories.php?id=29" >1-19</a>
+          <a href="stories.php?id=30" >1-20</a>
         </div>
       </div>
     </div>
