@@ -62,7 +62,8 @@
           <a href="stories.php?id=18" >1-8</a>
           <a href="stories.php?id=19" >1-9</a>
           <a href="stories.php?id=20" >1-10</a>
-        </div><div class="contents-links-bottom" class="acts">
+        </div>
+        <div class="contents-links-bottom" class="acts">
           <a href="stories.php?id=21" >1-11</a>
           <a href="stories.php?id=22" >1-12</a>
           <a href="stories.php?id=23" >1-13</a>
@@ -73,6 +74,10 @@
           <a href="stories.php?id=28" >1-18</a>
           <a href="stories.php?id=29" >1-19</a>
           <a href="stories.php?id=30" >1-20</a>
+        </div>
+        <h3>Act2</h3>
+        <div class="contents-links" class="acts">
+          <a href="stories.php?id=31" >2-1</a>
         </div>
       </div>
     </div>
