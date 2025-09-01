@@ -273,6 +273,45 @@
   .first_of_all {
     margin-top: 40px;
   }
+
+  .story-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .story-nav .nav-left,
+  .story-nav .nav-center,
+  .story-nav .nav-right {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .story-nav .nav-left {
+    text-align: left;
+  }
+  .story-nav .nav-right {
+    text-align: right;
+  }
+  
+  .story-nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .story-nav a:hover {
+    background: #555;
+  }
+  
+  .story-nav span {
+    display: inline-block;
+    padding: 10px 15px;
+    visibility: hidden; /* 空白用（高さを崩さない） */
+  }
   
   
   /*☆登場人物ページ*/

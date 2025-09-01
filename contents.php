@@ -78,6 +78,9 @@
         <h3>Act2</h3>
         <div class="contents-links" class="acts">
           <a href="stories.php?id=31" >2-1</a>
+          <a href="stories.php?id=32" >2-2</a>
+          <a href="stories.php?id=33" >2-3</a>
+          <a href="stories.php?id=34" >2-4</a>
         </div>
       </div>
     </div>

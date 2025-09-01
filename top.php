@@ -66,6 +66,22 @@
         <div class="news-container">
           <div class="news-list">
             <div class="news-item">
+              <span class="news-date">2025年09/01(mon)</span>
+              <p>【目次】ACT2 2-4を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年08/28(Thu)</span>
+              <p>【目次】ACT2 2-3を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年08/26(tue)</span>
+              <p>【ストーリー】本文下部に、「前のページへ」、「目次へ」、「次のページへ」ボタンを追加して、読みやすくしました。</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年08/25(mon)</span>
+              <p>【目次】ACT2 2-2を公開しました</p>
+            </div>
+            <div class="news-item">
               <span class="news-date">2025年08/20(wed)</span>
               <p>【目次】ACT2 2-1を公開しました</p>
             </div>

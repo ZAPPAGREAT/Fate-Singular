@@ -5,7 +5,7 @@ if ($mysqli->connect_error) {
     die("接続失敗: " . $mysqli->connect_error);
 }
 
-// URLからidを取得（例：stories.php?id=1）
+// URLからidを取得
 $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
 // クエリを実行してデータ取得
@@ -16,6 +16,29 @@ $stmt->execute();
 $stmt->bind_result($contentHtml);
 $stmt->fetch();
 $stmt->close();
+
+// 前後のIDをチェック
+$prevId = null;
+$nextId = null;
+
+// 前のページがあるか確認
+$sqlPrev = "SELECT id FROM novels WHERE id < ? ORDER BY id DESC LIMIT 1";
+$stmt = $mysqli->prepare($sqlPrev);
+$stmt->bind_param("i", $id);
+$stmt->execute();
+$stmt->bind_result($prevId);
+$stmt->fetch();
+$stmt->close();
+
+// 次のページがあるか確認
+$sqlNext = "SELECT id FROM novels WHERE id > ? ORDER BY id ASC LIMIT 1";
+$stmt = $mysqli->prepare($sqlNext);
+$stmt->bind_param("i", $id);
+$stmt->execute();
+$stmt->bind_result($nextId);
+$stmt->fetch();
+$stmt->close();
+
 $mysqli->close();
 ?>
 
@@ -57,6 +80,29 @@ $mysqli->close();
     <div class="story-box">
       <div class="container">
         <?= $contentHtml ?> <!-- HTMLとして描画 -->
+      </div>
+      <div class="story-nav">
+        <div class="nav-left">
+          <?php if ($prevId > 0): ?>
+            <a href="stories.php?id=<?= $prevId ?>">前のページへ</a>
+          <?php else: ?>
+            <!-- 前がない場合は空白 -->
+            <span></span>
+          <?php endif; ?>
+        </div>
+
+        <div class="nav-center">
+          <a href="contents.php">目次へ</a>
+        </div>
+
+        <div class="nav-right">
+          <?php if ($nextId > 0): ?>
+            <a href="stories.php?id=<?= $nextId ?>">次のページへ</a>
+          <?php else: ?>
+            <!-- 次がない場合は空白 -->
+            <span></span>
+          <?php endif; ?>
+        </div>
       </div>
     </div>
     <footer>
