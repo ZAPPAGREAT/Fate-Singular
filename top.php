@@ -66,6 +66,18 @@
         <div class="news-container">
           <div class="news-list">
             <div class="news-item">
+              <span class="news-date">2025年09/08(mon)</span>
+              <p>【目次】ACT2 2-6を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年09/04(thu)</span>
+              <p>【お知らせ】ストーリーの更新を、毎週月曜日と木曜日に行うようにしました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年09/04(thu)</span>
+              <p>【目次】ACT2 2-5を公開しました</p>
+            </div>
+            <div class="news-item">
               <span class="news-date">2025年09/01(mon)</span>
               <p>【目次】ACT2 2-4を公開しました</p>
             </div>

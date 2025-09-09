@@ -81,6 +81,8 @@
           <a href="stories.php?id=32" >2-2</a>
           <a href="stories.php?id=33" >2-3</a>
           <a href="stories.php?id=34" >2-4</a>
+          <a href="stories.php?id=35" >2-5</a>
+          <a href="stories.php?id=36" >2-6</a>
         </div>
       </div>
     </div>
