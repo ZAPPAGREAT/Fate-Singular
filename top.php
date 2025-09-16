@@ -66,6 +66,14 @@
         <div class="news-container">
           <div class="news-list">
             <div class="news-item">
+              <span class="news-date">2025年09/16(mon)</span>
+              <p>【目次】ACT2 2-8を公開しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年09/12(fri)</span>
+              <p>【お知らせ】一身上の都合で、来週の月曜日の更新は翌日火曜日へ延期します</p>
+            </div>
+            <div class="news-item">
               <span class="news-date">2025年09/11(thu)</span>
               <p>【目次】ACT2 2-7を公開しました</p>
             </div>

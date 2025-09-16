@@ -84,6 +84,7 @@
           <a href="stories.php?id=35" >2-5</a>
           <a href="stories.php?id=36" >2-6</a>
           <a href="stories.php?id=37" >2-7</a>
+          <a href="stories.php?id=38" >2-8</a>
         </div>
       </div>
     </div>
