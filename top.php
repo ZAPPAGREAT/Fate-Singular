@@ -66,7 +66,11 @@
         <div class="news-container">
           <div class="news-list">
             <div class="news-item">
-              <span class="news-date">2025年09/16(mon)</span>
+              <span class="news-date">2025年09/17(wed)</span>
+              <p>【登場人物】一部キャラクターの設定を調整しました</p>
+            </div>
+            <div class="news-item">
+              <span class="news-date">2025年09/16(tue)</span>
               <p>【目次】ACT2 2-8を公開しました</p>
             </div>
             <div class="news-item">
