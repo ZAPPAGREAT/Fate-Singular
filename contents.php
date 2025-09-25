@@ -88,6 +88,9 @@
           <a href="stories.php?id=39" >2-9</a>
           <a href="stories.php?id=40" >2-10</a>
         </div>
+        <div class="contents-links-bottom" class="acts">
+          <a href="stories.php?id=41" >2-11</a>
+        </div>
       </div>
     </div>
     <footer>
