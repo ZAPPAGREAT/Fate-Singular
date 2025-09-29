@@ -90,6 +90,7 @@
         </div>
         <div class="contents-links-bottom" class="acts">
           <a href="stories.php?id=41" >2-11</a>
+          <a href="stories.php?id=42" >2-12</a>
         </div>
       </div>
     </div>

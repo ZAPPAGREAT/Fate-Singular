@@ -66,6 +66,10 @@
         <div class="news-container">
           <div class="news-list">
             <div class="news-item">
+              <span class="news-date">2025年09/29(mon)</span>
+              <p>【目次】ACT2 2-12を公開しました</p>
+            </div>
+            <div class="news-item">
               <span class="news-date">2025年09/25(thu)</span>
               <p>【目次】ACT2 2-11を公開しました</p>
             </div>
