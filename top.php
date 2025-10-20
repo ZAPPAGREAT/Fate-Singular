@@ -64,11 +64,15 @@
       <div class="container">
         <h2 class="section-title">更新情報</h2>
         <div class="news-container">
-            <div class="news-list">
-              <div class="news-item">
-                <span class="news-date">2025年10/16(thu)</span>
-                <p>【目次】ACT2 2-17を公開しました</p>
-              </div>
+              <div class="news-list">
+                <div class="news-item">
+                  <span class="news-date">2025年10/20(mon)</span>
+                  <p>【目次】ACT2 2-18を公開しました</p>
+                </div>
+                <div class="news-item">
+                  <span class="news-date">2025年10/16(thu)</span>
+                  <p>【目次】ACT2 2-17を公開しました</p>
+                </div>
               <div class="news-item">
                 <span class="news-date">2025年10/13(mon)</span>
                 <p>【目次】ACT2 2-16を公開しました</p>
