@@ -100,6 +100,10 @@
             <a href="stories.php?id=49" >2-19</a>
             <a href="stories.php?id=50" >2-20</a>
         </div>
+        <h3>Act3</h3>
+        <div class="contents-links" class="acts">
+          <a href="stories.php?id=51" >3-1</a>
+        </div>
       </div>
     </div>
     <footer>
