@@ -103,6 +103,7 @@
         <h3>Act3</h3>
         <div class="contents-links" class="acts">
           <a href="stories.php?id=51" >3-1</a>
+          <a href="stories.php?id=52" >3-2</a>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 /* タブレット向け */
-@media all and (max-width: 1030px) {
+@media all and (max-width: 1380px) {
     .container {
         width: 100%;
     }
