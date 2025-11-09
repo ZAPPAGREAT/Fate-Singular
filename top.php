@@ -64,11 +64,19 @@
       <div class="container">
         <h2 class="section-title">更新情報</h2>
         <div class="news-container">
-              <div class="news-list">
-                <div class="news-item">
-                  <span class="news-date">2025年11/03(mon)</span>
-                  <p>【目次】ACT3 3-2を公開しました</p>
-                </div>
+                <div class="news-list">
+                  <div class="news-item">
+                    <span class="news-date">2025年11/09(sun)</span>
+                    <p>【ストーリー】プロローグ〜ACT1 1-20までの内容を一部調整しました</p>
+                  </div>
+                  <div class="news-item">
+                    <span class="news-date">2025年11/06(thu)</span>
+                    <p>【目次】ACT3 3-3を公開しました</p>
+                  </div>
+                  <div class="news-item">
+                    <span class="news-date">2025年11/03(mon)</span>
+                    <p>【目次】ACT3 3-2を公開しました</p>
+                  </div>
                 <div class="news-item">
                   <span class="news-date">2025年10/30(thu)</span>
                   <p>【目次】ACT3 3-1を公開しました</p>
