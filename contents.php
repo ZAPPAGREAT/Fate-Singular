@@ -105,6 +105,7 @@
             <a href="stories.php?id=51" >3-1</a>
             <a href="stories.php?id=52" >3-2</a>
             <a href="stories.php?id=53" >3-3</a>
+            <a href="stories.php?id=54" >3-4</a>
         </div>
       </div>
     </div>
